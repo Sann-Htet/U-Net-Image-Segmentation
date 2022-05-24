@@ -24,7 +24,7 @@ Loss function for the training is basically just a sparse categorical crossentro
 Used Keras utils function called `plot_model` to generate a more visual diagram, including skip connections. The generated image generated in Colab is rotated 90 degrees so that we can see U-shaped architecture.
 ## Results
 Use the trained model to do segmentation on test images, the result is statisfactory.
-![test_image](https://github.com/Sann-Htet/U-Net-Image-Segmentation/blob/master/images/segmented_images.png?raw=true)
+![test_image](https://github.com/Sann-Htet/U-Net-Image-Segmentation/blob/master/images/out/segmented_image_1.png?raw=true)
 ## Plot training history
 ![test_img](https://github.com/Sann-Htet/U-Net-Image-Segmentation/blob/master/images/Accuracy%20and%20loss.png?raw=true)
 The learning curve during training indicates that the model is doing well on both the training dataset and validation set, which indicates the model is generalizing well without much overfitting.
